@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="387px" height="69px" viewBox="0 0 387 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>v2/Form controls/Text input/text-input--success</title>
+    <defs>
+        <path d="M0,0 L0,40 L379,40 L379,0 L0,0 Z M-4,-4 L383,-4 L383,44 L-4,44 L-4,-4 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="379" height="40"></rect>
+        <filter x="-11.1%" y="-75.0%" width="122.2%" height="310.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M380,1 L380,41 L1,41 L1,1 L380,1 Z M379,2 L2,2 L2,40 L379,40 L379,2 Z" id="path-6"></path>
+    </defs>
+    <g id="USWDS-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form-controls" transform="translate(-37.000000, -502.000000)">
+            <g id="components/form-controls/text-input/text-input" transform="translate(41.000000, 503.000000)">
+                <g id="components/form-controls/→-elements/usa-input:filled:focus" transform="translate(0.000000, 24.000000)">
+                    <g id="components/→-elements/focus">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle-7" fill="#2491FF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="outline-color" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)" fill="#2491FF">
+                            <g transform="translate(-8.791237, -9.600000)" id="Rectangle">
+                                <polygon points="0 0 399.512887 0 399.512887 59.2 0 59.2"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="components/form-controls/→-elements/usa-input:filled">
+                        <g id="components/form-controls/→-elements/usa-input">
+                            <g id="block/⊞-uswds-block">
+                                <g id="block/⊡-tokens/radius-0">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Shadow" fill="black" fill-opacity="1">
+                                        <use filter="url(#filter-5)" xlink:href="#path-3"></use>
+                                    </g>
+                                    <g id="color/global/white" mask="url(#mask-4)" fill="#FFFFFF" fill-rule="evenodd">
+                                        <g transform="translate(-0.758000, -0.080000)" id="Rectangle">
+                                            <polygon points="0 0 380.516 0 380.516 40.16 0 40.16"></polygon>
+                                        </g>
+                                    </g>
+                                    <g id="block/⊡-tokens/radius-0.border-1px" mask="url(#mask-4)">
+                                        <g transform="translate(-1.000000, -1.000000)">
+                                            <mask id="mask-7" fill="white">
+                                                <use xlink:href="#path-6"></use>
+                                            </mask>
+                                            <g id="border-mask" stroke="none" fill="none"></g>
+                                            <g id="color/theme/base/base-darkest" stroke="none" fill="none" mask="url(#mask-7)" fill-rule="evenodd">
+                                                <g transform="translate(-2.908397, -0.641221)" id="color/system/gray-cool/gray-cool-90">
+                                                    <g>
+                                                        <polygon id="Rectangle" fill="#1C1D1F" points="0 0 386.816794 0 386.816794 43.2824427 0 43.2824427"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="text" font-family="PublicSans-Regular, Public Sans" font-size="16" font-weight="normal" line-spacing="16" fill="#171717">
+                            <tspan x="16" y="15">Project administration</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="usa-label" font-family="PublicSans-Regular, Public Sans" font-size="16" font-weight="normal" line-spacing="16" fill="#171717">
+                    <tspan x="4.54747351e-13" y="15">Job responsibility</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

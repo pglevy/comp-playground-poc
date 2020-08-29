@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="65px" viewBox="0 0 97 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components/form controls/text input/text-area</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="40"></rect>
+        <filter x="-84.0%" y="-75.0%" width="268.0%" height="310.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M51,1 L51,41 L1,41 L1,1 L51,1 Z M50,2 L2,2 L2,40 L50,40 L50,2 Z" id="path-4"></path>
+    </defs>
+    <g id="USWDS-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form-controls" transform="translate(-355.000000, -217.000000)">
+            <g id="components/form-controls/text-input/text-input" transform="translate(355.000000, 218.000000)">
+                <g id="components/form-controls/→-elements/usa-input:filled" transform="translate(0.000000, 24.000000)">
+                    <g id="components/form-controls/→-elements/usa-input">
+                        <g id="block/⊞-uswds-block">
+                            <g id="block/⊡-tokens/radius-0">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Shadow" fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                </g>
+                                <g id="color/global/white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                    <g transform="translate(-0.100000, -0.080000)" id="Rectangle">
+                                        <polygon points="0 0 50.2 0 50.2 40.16 0 40.16"></polygon>
+                                    </g>
+                                </g>
+                                <g id="block/⊡-tokens/radius-0.border-1px" mask="url(#mask-2)">
+                                    <g transform="translate(-1.000000, -1.000000)">
+                                        <mask id="mask-5" fill="white">
+                                            <use xlink:href="#path-4"></use>
+                                        </mask>
+                                        <g id="border-mask" stroke="none" fill="none"></g>
+                                        <g id="color/theme/base/base-darkest" stroke="none" fill="none" mask="url(#mask-5)" fill-rule="evenodd">
+                                            <g transform="translate(-0.396947, -0.641221)" id="color/system/gray-cool/gray-cool-90">
+                                                <g>
+                                                    <polygon id="Rectangle" fill="#1C1D1F" points="0 0 52.7938931 0 52.7938931 43.2824427 0 43.2824427"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="text" font-family="PublicSans-Regular, Public Sans" font-size="16" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="16" y="15">R</tspan>
+                    </text>
+                </g>
+                <text id="usa-label" font-family="PublicSans-Regular, Public Sans" font-size="16" font-weight="normal" line-spacing="16" fill="#171717">
+                    <tspan x="4.54747351e-13" y="15">Middle initial</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

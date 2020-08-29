@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="88px" viewBox="0 0 380 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components/form controls/text input/text-input--error</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="364" height="40"></rect>
+        <filter x="-11.5%" y="-75.0%" width="123.1%" height="310.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M365,1 L365,41 L1,41 L1,1 L365,1 Z M364,2 L2,2 L2,40 L364,40 L364,2 Z" id="path-4"></path>
+        <rect id="path-6" x="0" y="0" width="31" height="88"></rect>
+        <filter x="-135.5%" y="-34.1%" width="371.0%" height="195.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="1" y="1" width="4" height="88"></rect>
+    </defs>
+    <g id="USWDS-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form-controls" transform="translate(-40.000000, -303.000000)">
+            <g id="components/form-controls/text-input/text-input--error" transform="translate(40.000000, 303.000000)">
+                <g id="components/form-controls/→-elements/usa-input:filled" transform="translate(16.000000, 48.000000)">
+                    <g id="components/form-controls/→-elements/usa-input">
+                        <g id="block/⊞-uswds-block">
+                            <g id="block/⊡-tokens/radius-0">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Shadow" fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                </g>
+                                <g id="color/global/white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                    <g transform="translate(-0.728000, -0.080000)" id="Rectangle">
+                                        <polygon points="0 0 365.456 0 365.456 40.16 0 40.16"></polygon>
+                                    </g>
+                                </g>
+                                <g id="block/⊡-tokens/radius-0.border-1px" mask="url(#mask-2)">
+                                    <g transform="translate(-1.000000, -1.000000)">
+                                        <mask id="mask-5" fill="white">
+                                            <use xlink:href="#path-4"></use>
+                                        </mask>
+                                        <g id="border-mask" stroke="none" fill="none"></g>
+                                        <g id="color/theme/base/base-darkest" stroke="none" fill="none" mask="url(#mask-5)" fill-rule="evenodd">
+                                            <g transform="translate(-2.793893, -0.641221)" id="color/system/gray-cool/gray-cool-90">
+                                                <g>
+                                                    <polygon id="Rectangle" fill="#1C1D1F" points="0 0 371.587786 0 371.587786 43.2824427 0 43.2824427"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="text" font-family="PublicSans-Regular, Public Sans" font-size="16" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="16" y="15">Gergich</tspan>
+                    </text>
+                </g>
+                <text id="usa-error-message" font-family="PublicSans-Bold, Public Sans" font-size="16" font-weight="bold" line-spacing="16" fill="#B50909">
+                    <tspan x="16" y="35">Sorry, no television references</tspan>
+                </text>
+                <text id="usa-label" font-family="PublicSans-Bold, Public Sans" font-size="16" font-weight="bold" line-spacing="16" fill="#171717">
+                    <tspan x="16" y="15">Last name</tspan>
+                </text>
+                <g id="block/⊞-uswds-block">
+                    <g id="block/⊡-tokens/radius-0">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <g id="Shadow" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-8)" xlink:href="#path-6"></use>
+                        </g>
+                        <g id="color/global/transparent" mask="url(#mask-7)">
+                            <g transform="translate(-0.062000, -0.176000)" id="Rectangle">
+                                <polygon points="0 0 31.124 0 31.124 88.352 0 88.352"></polygon>
+                            </g>
+                        </g>
+                        <g id="block/⊡-tokens/radius-0.border-left-05" mask="url(#mask-7)">
+                            <g transform="translate(-1.000000, -1.000000)">
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <g id="border-mask" stroke="none" fill="none"></g>
+                                <g id="color/state/error/error-dark" stroke="none" fill="none" mask="url(#mask-10)" fill-rule="evenodd">
+                                    <g transform="translate(-0.251908, -1.374046)" id="color/system/0-red/red-60v">
+                                        <g>
+                                            <polygon id="Rectangle" fill="#B50909" points="0 0 33.5038168 0 33.5038168 92.7480916 0 92.7480916"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
