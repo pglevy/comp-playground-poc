@@ -1,5 +1,7 @@
 # Component Playground POC
 
+[Live example](https://pglevy.github.io/comp-playground-poc/)
+
 An experiment with using USWDS SVGs to create a browser-based playground anyone can use to mock up ideas.
 
 - Uses Jquery UI at the moment.
